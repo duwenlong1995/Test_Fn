@@ -1,0 +1,52 @@
+# Node.js 项目相关的忽略文件
+
+# 忽略 node_modules 目录
+node_modules/
+
+# 忽略日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 忽略环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 忽略构建输出目录
+dist/
+build/
+
+# 忽略临时文件
+tmp/
+temp/
+
+# 忽略 IDE 和编辑器相关的配置文件
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略测试覆盖率报告
+coverage/
+
+# 忽略 lint 和格式化工具生成的文件
+.eslintcache
+.prettiercache
+
+# 忽略特定文件类型
+*.log
+*.lock
+*.tsbuildinfo
+
+# 忽略其他配置文件
+*.local
+*.env.*
